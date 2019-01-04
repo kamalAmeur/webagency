@@ -4,8 +4,9 @@ html, body {
 	margin: 0;
 }
 #container {
-	max-width: 1600px;
+	max-width: 2500px;
 	width: 100%;
+
 }
 .center {
 	text-align: center;
@@ -521,7 +522,7 @@ button#click {
 	#contact > .formulaire-contact {
 		position: relative;
 		margin-top: 40px;
-		width: 91%;
+		width: 87%;
 	}
 	
 }
