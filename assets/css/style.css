@@ -471,7 +471,9 @@ button#click {
 	#contact > .formulaire-contact {
 		position: relative;
 		margin-top: 45px;
-		width: 92%;
+		box-sizing: border-box;
+		width: 100%;
+		right: 0;
 	}
 
 }
@@ -492,6 +494,16 @@ button#click {
 
    		
 	}
+	#nos-services > .photo-ordi-paragraphes > .sous-section-2-2 > .logo-services-para > .para {
+		margin-left: 0;
+	}
+	#nos-services > .photo-ordi-paragraphes > .sous-section-2-2 > .logo-services-para > .icon-cercle {
+		margin-right: 0;
+	}
+	#nos-services > .photo-ordi-paragraphes > .sous-section-2-2 > .logo-services-para {
+    align-items: center;
+    flex-direction: column; 
+    }
 	header #container-menu > figure >img {
 		height: 30px;
 		margin-left: 40px;
