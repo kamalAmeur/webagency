@@ -31,7 +31,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 999;
 }
 header > #container-menu {
 	display: flex;
@@ -231,10 +231,6 @@ header >  #container-menu > nav > a:hover {
 
 #nos-projets > .projets-para  {
 	font-size: 11px;
-}
-
-#nos-projets > .separateur {
-	width: 70%;
 }
 
 #nos-projets > .ligne {
